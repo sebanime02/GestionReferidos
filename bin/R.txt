@@ -146,6 +146,7 @@ int dimen abc_search_view_preferred_width 0x7f07000d
 int dimen abc_search_view_text_min_width 0x7f07000c
 int dimen activity_horizontal_margin 0x7f070015
 int dimen activity_vertical_margin 0x7f070016
+int dimen ancho_editlogin 0x7f07001b
 int dimen ancho_imagen_coomeva 0x7f070017
 int dimen dialog_fixed_height_major 0x7f070013
 int dimen dialog_fixed_height_minor 0x7f070014

@@ -959,6 +959,7 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f070015;
         public static final int activity_vertical_margin=0x7f070016;
+        public static final int ancho_editlogin=0x7f07001b;
         public static final int ancho_imagen_coomeva=0x7f070017;
         /**  The platform's desired fixed height for a dialog along the major axis
          (the screen is in portrait). This may be either a fraction or a dimension.

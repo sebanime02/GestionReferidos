@@ -7,4 +7,5 @@
    <dimen name="largo_imaegn_coomeva">150dp</dimen>
    <dimen name="letra_login">40dp</dimen>
    <dimen name="margen_edit_login">50dp</dimen>
+   <dimen name="ancho_editlogin">200dp</dimen>
 </resources>

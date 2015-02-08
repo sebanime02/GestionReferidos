@@ -45,9 +45,9 @@
          />
     <EditText 
         android:id="@+id/edNombre"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
-        android:hint="@string/Contrasena"
+        android:hint="@string/Nombre"
         android:background="@color/gris"
         android:layout_marginLeft="@dimen/margen_edit_login"
         />
@@ -76,7 +76,7 @@
          />
     <EditText 
         android:id="@+id/edContrasena"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
         android:hint="@string/Contrasena"
         android:background="@color/gris"
