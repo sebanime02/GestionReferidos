@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SaludApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+   <string name="content_descripcion">Descripcion</string>
+   <string name="Nombre">Nombre</string>
+   <string name="Contrasena">Contrasena</string>
+   <string name="btn_Ingresar">Ingresar</string>
+</resources>
