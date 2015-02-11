@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/blanco" >
+<ImageView  
+    android:layout_gravity="center_horizontal"
+    android:contentDescription="@string/content_descripcion"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:src="@drawable/coomeva"
+    
+    />
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Transaccional"
+    android:textColor="@color/negro"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    
+    />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="12sp"
+        android:text="@string/Gestion_Referidos"
+        android:background="@drawable/custom_btn_seagull" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Afiliacion"
+        android:background="@drawable/custom_btn_seagull" />
+
+  <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Informacion"
+    android:textColor="@color/negro"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    
+    />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Planes"
+        android:background="@drawable/custom_btn_seagull" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Quienes_Somos"
+        android:background="@drawable/custom_btn_seagull" />  
+    
+</LinearLayout>

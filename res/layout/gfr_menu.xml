@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/blanco" >
+<ImageView  
+    android:layout_gravity="center_horizontal"
+    android:contentDescription="@string/content_descripcion"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:src="@drawable/coomeva"
+    
+    />
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Gestion_Referidos"
+    android:textColor="@color/negro"
+    android:textStyle="bold"
+    android:textSize="@dimen/letra_Gestionreferidos"
+    android:gravity="center_horizontal"
+    
+    />
+    <Button
+        android:id="@+id/btnIngReferido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"
+        android:text="@string/Ingresar_Referido"
+        android:background="@drawable/custom_btn_seagull" />
+
+    <Button
+        android:id="@+id/btnAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Agenda"
+        android:background="@drawable/custom_btn_seagull" />
+
+    <Button
+        android:id="@+id/btnCaracterizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Caracterizacion" 
+        android:background="@drawable/custom_btn_seagull"/>
+    <ImageButton 
+        android:id="@+id/Atras"
+        android:contentDescription="@string/content_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/boton_atras"
+        android:background="@color/blanco"
+        />
+
+</LinearLayout>

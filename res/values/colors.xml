@@ -3,4 +3,7 @@
     <color name="gris">#888888</color>
     <color name="azul">#0000FF</color>
     <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="naranja">#FFA500</color>
+    <color name="celeste">#99CCFF</color>
 </resources>

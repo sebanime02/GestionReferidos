@@ -14,6 +14,7 @@
         android:layout_width="@dimen/ancho_imagen_coomeva"
         android:id="@+id/img_coomeva"
         android:src="@drawable/coomeva"
+        android:layout_alignParentLeft="true"
        
        />
    
@@ -48,7 +49,7 @@
         android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
         android:hint="@string/Nombre"
-        android:background="@color/gris"
+        android:background="@drawable/editstyle"
         android:layout_marginLeft="@dimen/margen_edit_login"
         />
     
@@ -79,8 +80,9 @@
         android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
         android:hint="@string/Contrasena"
-        android:background="@color/gris"
+        android:background="@drawable/editstyle"
         android:layout_marginLeft="@dimen/margen_edit_login"
+         android:inputType="textWebPassword"
         />
     
     
@@ -93,8 +95,9 @@
        android:layout_below="@+id/linea_contrasena"
        android:text="@string/btn_Ingresar"
        android:layout_centerHorizontal="true"
-      
+       android:layout_centerVertical="true"
        android:layout_marginTop="@dimen/margen_edit_login"
+       android:background="@drawable/custom_btn_seagull"
       />
 
 </RelativeLayout>

@@ -8,4 +8,15 @@
    <string name="Nombre">Nombre</string>
    <string name="Contrasena">Contrasena</string>
    <string name="btn_Ingresar">Ingresar</string>
+   <string name="Bienvenido">Bienvenido</string>
+   <string name="Transaccional" >Transaccional</string>
+   <string name="Informacion">Informacion</string>
+   <string name="Gestion_Referidos">Gestion De Referidos</string>
+   <string name="Afiliacion">Afiliacion</string>
+   <string name="Planes">Planes</string>
+   <string name="Quienes_Somos">Quienes Somos</string>
+   <string name="Ingresar_Referido">Ingresar Referido</string>
+   <string name="Agenda">Agenda</string>
+   <string name="Caracterizacion">Caracterizacion</string>
+   
 </resources>
