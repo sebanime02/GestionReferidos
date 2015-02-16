@@ -27,23 +27,22 @@
         android:src="@drawable/ceotic"
        
        />
-<LinearLayout  
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    android:layout_below="@+id/img_coomeva"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:id="@+id/lineaNombre"
+<RelativeLayout 
+     
+    android:layout_centerInParent="true"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   
     >
-    <TextView  
+    
+    <TextView
         android:id="@+id/tvNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Nombre"
-        android:textSize="@dimen/letra_login"
         
-         />
+        android:text="@string/Nombre"
+        android:textSize="@dimen/letra_login" />
+
     <EditText 
         android:id="@+id/edNombre"
         android:layout_width="@dimen/ancho_editlogin"
@@ -51,53 +50,44 @@
         android:hint="@string/Nombre"
         android:background="@drawable/editstyle"
         android:layout_marginLeft="@dimen/margen_edit_login"
+        android:layout_toRightOf="@id/tvNombre"
         />
     
-    
-</LinearLayout>
-
-   <LinearLayout  
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    android:layout_below="@+id/lineaNombre"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:id="@+id/linea_contrasena"
-    
-    >
-    <TextView  
+<TextView  
         android:id="@+id/tvContrasena"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Contrasena"
         android:textSize="@dimen/letra_login"
+        android:layout_below="@id/tvNombre" />
         
-       
-         />
     <EditText 
         android:id="@+id/edContrasena"
         android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
         android:hint="@string/Contrasena"
         android:background="@drawable/editstyle"
-        android:layout_marginLeft="@dimen/margen_edit_login"
+        
          android:inputType="textWebPassword"
+         android:layout_toRightOf="@id/tvContrasena"
+         android:layout_below="@id/edNombre"
+         android:layout_alignBaseline="@id/tvContrasena"
+         android:layout_alignLeft="@id/edNombre"
+         android:layout_alignRight="@id/edNombre"
         />
     
     
-</LinearLayout>
+
   <Button 
       
        android:id="@+id/btn_Ingresar"
-       android:layout_width="wrap_content"
+       android:layout_width="100dp"
        android:layout_height="wrap_content"
-       android:layout_below="@+id/linea_contrasena"
        android:text="@string/btn_Ingresar"
        android:layout_centerHorizontal="true"
-       android:layout_centerVertical="true"
        android:layout_marginTop="@dimen/margen_edit_login"
        android:background="@drawable/custom_btn_seagull"
+       android:layout_below="@id/tvNombre"
       />
-
+</RelativeLayout>
 </RelativeLayout>

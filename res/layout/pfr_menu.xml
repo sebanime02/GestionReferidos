@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/blanco" >
+<ImageView  
+    android:layout_gravity="center_horizontal"
+    android:contentDescription="@string/content_descripcion"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:src="@drawable/coomeva"
+    
+    />
+    <Button
+        android:id="@+id/btn_diamante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        
+        android:text="@string/Diamante"
+        android:background="@drawable/custom_btn_seagull" />
+
+    <Button
+        android:id="@+id/btn_Zafiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Zafiro"
+        android:background="@drawable/custom_btn_seagull"
+         />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Oro"
+        android:background="@drawable/custom_btn_seagull" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Esmeralda"
+        android:background="@drawable/custom_btn_seagull" />  
+    
+</LinearLayout>

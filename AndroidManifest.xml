@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/coomeva"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -62,6 +62,27 @@
         </activity>
         <activity
             android:name="com.example.saludapp.agenda.Agenda"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.example.saludapp.informacion.PBodyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.saludapp.informacion.PlanesPrincipal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.saludapp.informacion.PMenuFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.saludapp.informacion.PBodyFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.saludapp.informacion.QuinesSomos"
             android:label="@string/app_name" >
         </activity>
          

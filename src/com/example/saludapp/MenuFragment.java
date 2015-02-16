@@ -1,6 +1,7 @@
 package com.example.saludapp;
 
 import com.example.saludapp.gestion.GestionPrincipal;
+import com.example.saludapp.informacion.PlanesPrincipal;
 
 import android.app.Activity;
 import android.support.v4.app.Fragment;
@@ -17,7 +18,7 @@ import android.widget.TextView;
 public class MenuFragment extends Fragment {
 
 	// views
-	Button btn1, btn2;
+	Button btn1, btn2,btn3,btn4;
 
 	// activity listener
 	private OnMenufragListener menufragListener;
@@ -70,13 +71,13 @@ public class MenuFragment extends Fragment {
 		});
 
 		// get button BTN2
-		btn2 = (Button) view.findViewById(R.id.btn2);
+		btn4 = (Button) view.findViewById(R.id.btn3);
 		// button listener
-		btn2.setOnClickListener(new View.OnClickListener() {
+		btn4.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				Intent i;
-				i = new Intent(getActivity(), GestionPrincipal.class);
+				i = new Intent(getActivity(), PlanesPrincipal.class);
 				startActivity(i);
 			}
 		});

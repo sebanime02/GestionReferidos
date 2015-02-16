@@ -18,5 +18,11 @@
    <string name="Ingresar_Referido">Ingresar Referido</string>
    <string name="Agenda">Agenda</string>
    <string name="Caracterizacion">Caracterizacion</string>
+   <string name="Diamante">Diamante</string>
+   <string name="Zafiro">Zafiro</string>
+   <string name="Oro">Oro</string>
+   <string name="Esmeralda">Esmeralda</string>
+   <string name="Cobertura">Cobertura</string>
+   <string name="descripcion_diamante">En minerologia el diamante del griego</string>
    
 </resources>

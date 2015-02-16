@@ -996,7 +996,9 @@ containing a value of this type.
          (the screen is in portrait). This may be either a fraction or a dimension.
          */
         public static final int dialog_fixed_width_minor=0x7f070012;
+        public static final int dimen_diamante=0x7f07001f;
         public static final int largo_imaegn_coomeva=0x7f070018;
+        public static final int letra_Gestionreferidos=0x7f07001e;
         public static final int letra_login=0x7f070019;
         public static final int letra_login_portrait=0x7f07001a;
         public static final int margen_botonlogin=0x7f07001d;
@@ -1095,15 +1097,19 @@ containing a value of this type.
         public static final int ceotic=0x7f020059;
         public static final int coomeva=0x7f02005a;
         public static final int custom_btn_seagull=0x7f02005b;
-        public static final int editstyle=0x7f02005c;
-        public static final int ic_launcher=0x7f02005d;
-        public static final int logo=0x7f02005e;
+        public static final int diamante=0x7f02005c;
+        public static final int editstyle=0x7f02005d;
+        public static final int esmeralda=0x7f02005e;
+        public static final int ic_launcher=0x7f02005f;
+        public static final int logo=0x7f020060;
     }
     public static final class id {
-        public static final int AgendarNombre=0x7f090047;
-        public static final int Atras=0x7f090053;
-        public static final int GbodyFragment=0x7f09004d;
-        public static final int GmenuFragment=0x7f09004e;
+        public static final int AgendarNombre=0x7f090046;
+        public static final int Atras=0x7f090052;
+        public static final int GbodyFragment=0x7f09004c;
+        public static final int GmenuFragment=0x7f09004d;
+        public static final int PbodyFragment=0x7f090059;
+        public static final int PmenuFragment=0x7f09005a;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1115,28 +1121,32 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f090054;
+        public static final int action_settings=0x7f09005b;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
         public static final int bodyFragment=0x7f09003c;
-        public static final int btn1=0x7f090049;
-        public static final int btn2=0x7f09004a;
-        public static final int btn3=0x7f09004b;
-        public static final int btn4=0x7f09004c;
-        public static final int btnAgenda=0x7f090051;
-        public static final int btnCaracterizacion=0x7f090052;
-        public static final int btnIngReferido=0x7f090050;
-        public static final int btn_Ingresar=0x7f090046;
+        public static final int btn1=0x7f090048;
+        public static final int btn2=0x7f090049;
+        public static final int btn3=0x7f09004a;
+        public static final int btn4=0x7f09004b;
+        public static final int btnAgenda=0x7f090050;
+        public static final int btnCaracterizacion=0x7f090051;
+        public static final int btnIngReferido=0x7f09004f;
+        public static final int btn_Ingresar=0x7f090044;
+        public static final int btn_Zafiro=0x7f090058;
+        public static final int btn_diamante=0x7f090057;
         public static final int checkbox=0x7f09002d;
+        public static final int cobertura=0x7f090055;
         public static final int collapseActionView=0x7f090010;
         public static final int default_activity_button=0x7f090028;
-        public static final int detailsText=0x7f090048;
+        public static final int detailsText=0x7f090047;
         public static final int dialog=0x7f090014;
+        public static final int diamante=0x7f090053;
         public static final int disableHome=0x7f090009;
         public static final int dropdown=0x7f090015;
-        public static final int edContrasena=0x7f090045;
-        public static final int edNombre=0x7f090042;
+        public static final int edContrasena=0x7f090043;
+        public static final int edNombre=0x7f090041;
         public static final int edit_query=0x7f090030;
         public static final int end=0x7f090017;
         public static final int expand_activities_button=0x7f090026;
@@ -1148,12 +1158,11 @@ containing a value of this type.
         public static final int image=0x7f090027;
         public static final int img_ceotic=0x7f09003f;
         public static final int img_coomeva=0x7f09003e;
-        public static final int lineaNombre=0x7f090040;
-        public static final int linea_contrasena=0x7f090043;
+        public static final int lineaNombre=0x7f090045;
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;
         public static final int menuFragment=0x7f09003d;
-        public static final int menuGestion=0x7f09004f;
+        public static final int menuGestion=0x7f09004e;
         public static final int middle=0x7f090018;
         public static final int never=0x7f090012;
         public static final int none=0x7f090019;
@@ -1180,8 +1189,10 @@ containing a value of this type.
         public static final int tabMode=0x7f090008;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
-        public static final int tvContrasena=0x7f090044;
-        public static final int tvNombre=0x7f090041;
+        public static final int tvContrasena=0x7f090042;
+        public static final int tvNombre=0x7f090040;
+        public static final int txt_cobertura=0x7f090056;
+        public static final int txt_contenido=0x7f090054;
         public static final int up=0x7f090021;
         public static final int useLogo=0x7f09000e;
         public static final int withText=0x7f090013;
@@ -1247,8 +1258,11 @@ containing a value of this type.
         public static final int ge_main=0x7f030020;
         public static final int gfr_body=0x7f030021;
         public static final int gfr_menu=0x7f030022;
-        public static final int planes=0x7f030023;
-        public static final int support_simple_spinner_dropdown_item=0x7f030024;
+        public static final int pfr_body=0x7f030023;
+        public static final int pfr_menu=0x7f030024;
+        public static final int pla_body=0x7f030025;
+        public static final int pla_main=0x7f030026;
+        public static final int support_simple_spinner_dropdown_item=0x7f030027;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1258,14 +1272,19 @@ containing a value of this type.
         public static final int Agenda=0x7f0a001c;
         public static final int Bienvenido=0x7f0a0014;
         public static final int Caracterizacion=0x7f0a001d;
+        public static final int Cobertura=0x7f0a0022;
         public static final int Contrasena=0x7f0a0012;
+        public static final int Diamante=0x7f0a001e;
+        public static final int Esmeralda=0x7f0a0021;
         public static final int Gestion_Referidos=0x7f0a0017;
         public static final int Informacion=0x7f0a0016;
         public static final int Ingresar_Referido=0x7f0a001b;
         public static final int Nombre=0x7f0a0011;
+        public static final int Oro=0x7f0a0020;
         public static final int Planes=0x7f0a0019;
         public static final int Quienes_Somos=0x7f0a001a;
         public static final int Transaccional=0x7f0a0015;
+        public static final int Zafiro=0x7f0a001f;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1310,6 +1329,7 @@ containing a value of this type.
         public static final int app_name=0x7f0a000d;
         public static final int btn_Ingresar=0x7f0a0013;
         public static final int content_descripcion=0x7f0a0010;
+        public static final int descripcion_diamante=0x7f0a0023;
         public static final int hello_world=0x7f0a000e;
     }
     public static final class style {
