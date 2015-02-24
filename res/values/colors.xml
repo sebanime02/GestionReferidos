@@ -6,4 +6,11 @@
     <color name="negro">#000000</color>
     <color name="naranja">#FFA500</color>
     <color name="celeste">#99CCFF</color>
+    <color name="verde">#006400</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#002200</color>
+    <color name="list_background_pressed">#0000AA</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
 </resources>

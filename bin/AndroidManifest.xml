@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="21" />
 
     <application
@@ -24,68 +24,42 @@
             </intent-filter>
         </activity>
          <activity
-            android:name="com.example.saludapp.MenuPrincipal"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.example.saludapp.MenuFragment"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.example.saludapp.ExpandableListAdapter"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.example.saludapp.BodyFragment"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.example.saludapp.BodyActivity"
-            android:label="@string/app_name" >
-        </activity>
-         <activity
-            android:name="com.example.saludapp.gestion.GestionPrincipal"
+            android:name="com.example.saludapp.SliderPrincipal"
             android:label="@string/app_name" >
         </activity>
         
          <activity
-            android:name="com.example.saludapp.gestion.GBodyFragment"
+            android:name="com.example.saludapp.adapter.NavDrawerListAdapter"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.gestion.GMenuFragment"
+         <activity
+            android:name="com.example.saludap.model.NavDrawerItem"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.gestion.GBodyActivity"
+         <activity
+            android:name="com.example.saludapp.pantallas.CommunityFragment"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.agenda.Agenda"
+         <activity
+            android:name="com.example.saludapp.pantallas.FindPeopleFragment"
             android:label="@string/app_name" >
         </activity>
-        
-        <activity
-            android:name="com.example.saludapp.informacion.PBodyActivity"
+         <activity
+            android:name="com.example.saludapp.pantallas.HomeFragment"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.informacion.PlanesPrincipal"
+          <activity
+            android:name="com.example.saludapp.pantallas.PagesFragment"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.informacion.PMenuFragment"
+          <activity
+            android:name="com.example.saludapp.pantallas.PhotosFragment"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.informacion.PBodyFragment"
+          <activity
+            android:name="com.example.saludapp.pantallas.WhatsHotFragment"
             android:label="@string/app_name" >
         </activity>
-        <activity
-            android:name="com.example.saludapp.informacion.QuinesSomos"
-            android:label="@string/app_name" >
-        </activity>
-         
     </application>
 
 </manifest>

@@ -24,5 +24,79 @@
    <string name="Esmeralda">Esmeralda</string>
    <string name="Cobertura">Cobertura</string>
    <string name="descripcion_diamante">En minerologia el diamante del griego</string>
+   <string name="descripcion_esmeralda">En minerologia la esmeralda del griego</string>
+   <string name="cobertura">En minerologia el diamante y la esmeralda</string>
+    <string name="olvido_contrasena"> <u>Olvido contrasena?</u> </string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+   <string name="primer_apellido">Primer Apellido</string>
+   <string name="segundo_apellido">Segundo Apellido</string>
+   <string name="nombres">Nombres</string>
+   <string name="numero_id">Numero ID</string>
+   <string name="fecha_nacimiento">Fecha Nacimiento</string>
+   <string name="edad">Edad</string>
+   <string name="hint_dia">Dia</string>
+   <string name="hint_mes">Mes</string>
+   <string name="hint_ano">Ano</string>
+    <string name="hint_vacio">  </string>
+    <string name="tipo_documento">Tipo Documento</string>
+    <string name="celular">Celular</string>
+    <string name="direccion">Direccion</string>
+    <string name="genero">Genero</string>
+    <string name="telefono_fijo">Tel. Fijo</string>
+    <string name="correo">Correo Electronico</string>
+    <string name="agendar">Agendar</string>
+    <string name="caracterizar">Caracterizar</string>
+    <string name="guardar">Guardar</string>
+      <!--Spinner Tipo de documento -->
+      
+      <string-array name="tipo_documento_items">
+          
+       <item>CC</item>
+       <item>TI</item>
+       <item>Extranjeria</item>
+          
+          
+      </string-array>
    
+      <!--Spinner Genero -->
+      <string-array name="genero_items">
+          
+       <item>Hombre</item>
+       <item>Mujer</item>
+ 
+          
+          
+      </string-array>
+      
+      
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Ingresar Referido</item>
+        <item >Agenda</item>
+        <item >Caracterizar</item>
+        <item >Afiliar</item>
+        <item >Planes</item>
+        <item >Quines Somos</item>
+        <item >Salir</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/afiliar</item>
+        <item>@drawable/calendar</item>
+        <item>@drawable/estrella</item>
+        <item>@drawable/ingresar</item>
+        <item>@drawable/planes</item>
+        <item>@drawable/quines</item>
+        <item>@drawable/close</item>
+    </array>
+    
+    
+    
+
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
 </resources>

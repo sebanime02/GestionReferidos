@@ -16,7 +16,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.login);
 
 		btn_Ingresar = (Button) findViewById(R.id.btn_Ingresar);
 		btn_Ingresar.setOnClickListener(this);
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		Intent i;
 		switch (v.getId()) {
 		case R.id.btn_Ingresar:
-			i = new Intent(MainActivity.this, MenuPrincipal.class);
+			i = new Intent(MainActivity.this, SliderPrincipal.class);
 			startActivity(i);
 			break;
 

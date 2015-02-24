@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.saludapp.MainActivity" >
+
+   <ImageView 
+       android:contentDescription="@string/content_descripcion"
+        android:layout_height="@dimen/largo_imaegn_coomeva"
+        android:layout_width="@dimen/ancho_imagen_coomeva"
+        android:id="@+id/img_coomeva"
+        android:src="@drawable/coomeva"
+        android:layout_alignParentLeft="true"
+       
+       />
+   
+<ImageView 
+       android:contentDescription="@string/content_descripcion"
+        android:layout_height="@dimen/largo_imaegn_coomeva"
+        android:layout_width="@dimen/ancho_imagen_coomeva"
+        android:id="@+id/img_ceotic"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ceotic"
+       
+       />
+<RelativeLayout 
+     
+    android:layout_centerInParent="true"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   
+    >
+    
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/Nombre"
+        android:textSize="@dimen/letra_login" 
+        android:textStyle="bold"
+        android:textColor="@color/verde"/>
+
+    <EditText 
+        android:id="@+id/edNombre"
+        android:layout_width="@dimen/ancho_editlogin"
+        android:layout_height="@dimen/letra_login"
+        android:hint="@string/Nombre"
+        android:background="@drawable/editstyle"
+        android:layout_marginLeft="@dimen/margen_edit_login"
+        android:layout_toRightOf="@id/tvNombre"
+        />
+    
+<TextView  
+        android:id="@+id/tvContrasena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Contrasena"
+        android:textSize="@dimen/letra_login"
+        android:layout_below="@id/tvNombre" 
+        android:textStyle="bold"
+        android:textColor="@color/verde"/>
+        
+    <EditText 
+        android:id="@+id/edContrasena"
+        android:layout_width="@dimen/ancho_editlogin"
+        android:layout_height="@dimen/letra_login"
+        android:hint="@string/Contrasena"
+        android:background="@drawable/editstyle"
+        
+         android:inputType="textWebPassword"
+         android:layout_toRightOf="@id/tvContrasena"
+         android:layout_below="@id/edNombre"
+         android:layout_alignBaseline="@id/tvContrasena"
+         android:layout_alignLeft="@id/edNombre"
+         android:layout_alignRight="@id/edNombre"
+        />
+    
+    
+
+  <Button 
+      
+       android:id="@+id/btn_Ingresar"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:text="@string/btn_Ingresar"
+       android:textColor="@color/blanco"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/margen_edit_login"
+       android:background="@drawable/round_button"
+       android:layout_below="@id/tvNombre"
+      />
+  <TextView  android:id="@+id/olvide"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/dimen_recordame"
+      android:text="@string/olvido_contrasena"
+      android:textColor="@color/verde"
+      android:layout_below="@id/btn_Ingresar"
+      android:layout_alignLeft="@id/tvNombre"
+      android:layout_alignRight="@id/edNombre"
+      android:gravity="center_horizontal"
+      android:clickable="true"
+      android:autoLink="all"
+      />
+</RelativeLayout>
+</RelativeLayout>

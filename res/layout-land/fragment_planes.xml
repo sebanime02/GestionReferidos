@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+
+    <ImageView 
+        android:contentDescription="@string/content_descripcion"
+        android:id="@+id/diamante"
+        android:layout_width="@dimen/dimen_diamante"
+        android:layout_height="@dimen/dimen_diamante"
+        android:src="@drawable/diamante"
+        
+        />
+       <ImageView 
+         android:layout_below="@id/diamante"
+        android:contentDescription="@string/content_descripcion"
+        android:id="@+id/esmeralda"
+        android:layout_width="@dimen/dimen_diamante"
+        android:layout_height="@dimen/dimen_diamante"
+        android:src="@drawable/esmeralda"
+        
+        />
+    <TextView 
+        android:id="@+id/cobertura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Cobertura"
+        android:layout_below="@id/esmeralda"
+        android:textSize="@dimen/letra_login"
+        android:textStyle="bold"
+        
+        />
+    <TextView 
+        android:id="@+id/txt_cobertura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_diamante"
+       android:layout_below="@+id/cobertura"
+       
+           />
+
+    <TextView
+        android:id="@+id/txt_contenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_contenido2"
+        android:layout_alignTop="@+id/diamante"
+        android:layout_marginTop="28dp"
+        android:text="@string/descripcion_diamante" />
+
+    <TextView
+        android:id="@+id/txt_contenido2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cobertura"
+        android:layout_alignTop="@+id/esmeralda"
+        android:layout_marginTop="26dp"
+        android:layout_toRightOf="@+id/esmeralda"
+        android:text="@string/descripcion_esmeralda" />
+
+</RelativeLayout>
+</ScrollView>
