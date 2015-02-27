@@ -27,95 +27,85 @@
         android:src="@drawable/ceotic"
        
        />
-<LinearLayout  
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    android:layout_below="@+id/img_coomeva"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:id="@+id/lineaNombre"
+<RelativeLayout 
+     
+    android:layout_centerInParent="true"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   
     >
-    <TextView  
+    
+    <TextView
         android:id="@+id/tvNombre"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Nombre"
-        android:gravity="center_horizontal"
-        android:textSize="@dimen/letra_login"
-        android:textStyle="bold"
-        android:textColor="@color/verde"
         
-         />
+        android:text="@string/Nombre"
+        android:textSize="@dimen/letra_login" 
+        android:textStyle="bold"
+        android:textColor="@color/verde"/>
+
     <EditText 
         android:id="@+id/edNombre"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
-        
-        
         android:hint="@string/Nombre"
-        
         android:background="@drawable/editstyle"
-        
+        android:layout_marginLeft="@dimen/margen_edit_login"
+        android:layout_toRightOf="@id/tvNombre"
         />
     
-    
-
-
-  
-    <TextView  
+<TextView  
         android:id="@+id/tvContrasena"
-        android:gravity="center_horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Contrasena"
         android:textSize="@dimen/letra_login"
+        android:layout_below="@id/tvNombre" 
         android:textStyle="bold"
-        android:textColor="@color/verde"
+        android:textColor="@color/verde"/>
         
-       
-         />
     <EditText 
         android:id="@+id/edContrasena"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/ancho_editlogin"
         android:layout_height="@dimen/letra_login"
         android:hint="@string/Contrasena"
         android:background="@drawable/editstyle"
-        android:inputType="textWebPassword"
-       
+        
+         android:inputType="textWebPassword"
+         android:layout_toRightOf="@id/tvContrasena"
+         android:layout_below="@id/edNombre"
+         android:layout_alignBaseline="@id/tvContrasena"
+         android:layout_alignLeft="@id/edNombre"
+         android:layout_alignRight="@id/edNombre"
         />
     
     
 
   <Button 
       
-      
-       android:layout_marginTop="@dimen/margen_botonlogin"
        android:id="@+id/btn_Ingresar"
        android:layout_width="100dp"
        android:layout_height="wrap_content"
-      android:layout_gravity="center_horizontal"
-        android:textColor="@color/blanco"
        android:text="@string/btn_Ingresar"
+       android:textColor="@color/blanco"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="@dimen/margen_edit_login"
        android:background="@drawable/round_button"
-       
-     
+       android:layout_below="@id/tvNombre"
       />
-  
-  <TextView 
-        android:id="@+id/olvide"
-        android:layout_marginTop="@dimen/margen_botonlogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/olvido_contrasena"
-        android:textColor="@color/verde"
-        android:clickable="true"
-        
-        
-        />
-  
-  
-  </LinearLayout>
-
+  <TextView  android:id="@+id/olvide"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/dimen_recordame"
+      android:text="@string/olvido_contrasena"
+      android:textColor="@color/verde"
+      android:layout_below="@id/btn_Ingresar"
+      android:layout_alignLeft="@id/tvNombre"
+      android:layout_alignRight="@id/edNombre"
+      android:gravity="center_horizontal"
+      android:clickable="true"
+      android:autoLink="all"
+      />
+</RelativeLayout>
 </RelativeLayout>

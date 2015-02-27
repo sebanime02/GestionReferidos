@@ -35,10 +35,23 @@
    <string name="numero_id">Numero ID</string>
    <string name="fecha_nacimiento">Fecha Nacimiento</string>
    <string name="edad">Edad</string>
-   <string name="hint_dia">Dia</string>
-   <string name="hint_mes">Mes</string>
-   <string name="hint_ano">Ano</string>
+    <!-- Hints edittexts -->
+   <string name="hint_dia"> dd</string>
+   <string name="hint_mes"> mm</string>
+   <string name="hint_ano"> aa</string>
     <string name="hint_vacio">  </string>
+   
+   <string name="hint_1erapellido">1er Apellido</string>
+   <string name="hint_2doapellido">2do Apellido</string>
+   <string name="hint_Nombres">Nombres</string>
+    <string name="hint_Identificacion">Identificacion</string>
+    <string name="hint_Correo">Correo</string>
+   <string name="hint_Celular">Celular</string>
+   <string name="hint_Telefonofijo">Fijo</string>
+    <string name="hint_Direccion">Direccion</string>
+    
+    
+    
     <string name="tipo_documento">Tipo Documento</string>
     <string name="celular">Celular</string>
     <string name="direccion">Direccion</string>

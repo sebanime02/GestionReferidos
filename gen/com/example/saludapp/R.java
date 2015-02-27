@@ -992,13 +992,19 @@ containing a value of this type.
          */
         public static final int activity_horizontal_margin=0x7f070015;
         public static final int activity_vertical_margin=0x7f070016;
+        public static final int alto_btnguardar=0x7f070030;
+        public static final int altoedits=0x7f070025;
+        public static final int ancho_btn_ingregsarreferido=0x7f07002e;
         public static final int ancho_editlogin=0x7f07001c;
         public static final int ancho_imagen_coomeva=0x7f070017;
-        public static final int ancho_lapiz=0x7f070029;
-        public static final int ancho_telefono=0x7f07002c;
+        public static final int ancho_lapiz=0x7f07002a;
+        public static final int ancho_telefono=0x7f07002d;
+        /** Referencia   
+Referencia   
+         */
         public static final int anchoedits=0x7f070024;
-        public static final int anchofecha=0x7f070026;
-        public static final int anchonombre=0x7f070025;
+        public static final int anchofecha=0x7f070027;
+        public static final int anchonombre=0x7f070026;
         /**  The platform's desired fixed height for a dialog along the major axis
          (the screen is in portrait). This may be either a fraction or a dimension.
  The platform's desired fixed height for a dialog along the major axis
@@ -1033,10 +1039,10 @@ containing a value of this type.
         public static final int dialog_fixed_width_minor=0x7f070012;
         public static final int dimen_diamante=0x7f07001f;
         public static final int dimen_recordame=0x7f070020;
-        public static final int divisorfecha=0x7f070028;
-        public static final int divisornombres=0x7f070027;
+        public static final int divisorfecha=0x7f070029;
+        public static final int divisornombres=0x7f070028;
         public static final int largo_imaegn_coomeva=0x7f070018;
-        public static final int largo_lapiz=0x7f07002a;
+        public static final int largo_lapiz=0x7f07002b;
         public static final int letra_Gestionreferidos=0x7f07001e;
         public static final int letra_formulario=0x7f070023;
         public static final int letra_ingresarreferido=0x7f070021;
@@ -1045,7 +1051,8 @@ containing a value of this type.
         public static final int margen_botonlogin=0x7f07001d;
         public static final int margen_edit_login=0x7f07001b;
         public static final int margen_ingresarreferido=0x7f070022;
-        public static final int margin_btnref=0x7f07002b;
+        public static final int margin_btnref=0x7f07002c;
+        public static final int tamanoletra_btnguardar=0x7f07002f;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -1183,7 +1190,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
-        public static final int btn_Ingresar=0x7f090068;
+        public static final int btn_Ingresar=0x7f090069;
         public static final int btn_guardarref=0x7f09005b;
         public static final int checkbox=0x7f09002d;
         public static final int cobertura=0x7f090044;
@@ -1196,13 +1203,13 @@ containing a value of this type.
         public static final int drawer_layout=0x7f09003c;
         public static final int dropdown=0x7f090015;
         public static final int edAno=0x7f090055;
-        public static final int edContrasena=0x7f090067;
+        public static final int edContrasena=0x7f090068;
         public static final int edCorreo=0x7f09005d;
         public static final int edDia=0x7f090053;
         public static final int edDireccion=0x7f09005a;
         public static final int edFijo=0x7f090061;
         public static final int edMes=0x7f090054;
-        public static final int edNombre=0x7f090065;
+        public static final int edNombre=0x7f090066;
         public static final int edNombres=0x7f09004e;
         public static final int edNumeroid=0x7f090052;
         public static final int edPrimerApellido=0x7f09004c;
@@ -1221,7 +1228,7 @@ containing a value of this type.
         public static final int image=0x7f090027;
         public static final int img_ceotic=0x7f090063;
         public static final int img_coomeva=0x7f090062;
-        public static final int lineaNombre=0x7f09006a;
+        public static final int lineaNombre=0x7f090064;
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;
         public static final int list_slidermenu=0x7f09003e;
@@ -1229,7 +1236,7 @@ containing a value of this type.
         public static final int never=0x7f090012;
         public static final int none=0x7f090019;
         public static final int normal=0x7f090007;
-        public static final int olvide=0x7f090069;
+        public static final int olvide=0x7f09006a;
         public static final int progress_circular=0x7f090004;
         public static final int progress_horizontal=0x7f090005;
         public static final int radio=0x7f09002f;
@@ -1254,12 +1261,12 @@ containing a value of this type.
         public static final int tabMode=0x7f090008;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
-        public static final int tvContrasena=0x7f090066;
+        public static final int tvContrasena=0x7f090067;
         public static final int tvCorreo=0x7f09005c;
         public static final int tvDireccion=0x7f090059;
         public static final int tvFecha=0x7f090051;
         public static final int tvFijo=0x7f090060;
-        public static final int tvNombre=0x7f090064;
+        public static final int tvNombre=0x7f090065;
         public static final int tvNombres=0x7f09004b;
         public static final int tvNumeroid=0x7f090050;
         public static final int tvPrimerApellido=0x7f090049;

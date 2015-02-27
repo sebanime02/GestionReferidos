@@ -4,9 +4,29 @@
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw600dp devices (e.g. 7" tablets) here.
     -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">32dp</dimen>
+    <dimen name="activity_vertical_margin">32dp</dimen>
+    <!-- Login -->
+    <dimen name="ancho_imagen_coomeva">120dp</dimen>
+   <dimen name="largo_imaegn_coomeva">120dp</dimen>
+    <dimen name="letra_login">30dp</dimen>
+    <dimen name="margen_edit_login">75dp</dimen>
+   <dimen name="ancho_editlogin">225dp</dimen>
+    
+      <!-- Alto y Ancho Panel Login centra -->
+    <dimen name="ancho_logincentral">450dp</dimen>
+    <dimen name="largo_logincentral">450dp</dimen>
+    
+    
+    <!--Formulario Ingresar Referido   -->
     <dimen name="anchoedits">160dp</dimen>
    <dimen name="letra_ingresarreferido">40dp</dimen>
    <dimen name="letra_formulario">22dp</dimen>
+   <dimen name="anchonombre">320dp</dimen>
+   <dimen name="anchofecha">60dp</dimen>
+   <dimen name="altoedits">40dp</dimen>
+  <dimen name="ancho_btn_ingregsarreferido">160dp</dimen>
+  <dimen name="divisornombres">140dp</dimen>
+  <dimen name="tamanoletra_btnguardar">32dp</dimen>
+  <dimen name="alto_btnguardar">60dp</dimen>
 </resources>
