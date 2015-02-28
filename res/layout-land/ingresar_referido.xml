@@ -66,7 +66,7 @@
          android:textSize="@dimen/letra_formulario"
          android:layout_below="@+id/tvPrimerApellido"
          android:layout_marginRight="@dimen/divisornombres"
-         android:inputType=""
+       android:inputType="textCapCharacters"
          
          /> 
        <EditText 
@@ -80,7 +80,7 @@
          android:layout_toRightOf="@id/edPrimerApellido"
          android:layout_alignLeft="@id/tvSegundoApellido"
          android:layout_below="@+id/tvPrimerApellido"
-         android:inputType="textCapWords"
+         android:inputType="textCapCharacters"
          />   
          
    
@@ -97,7 +97,7 @@
          android:layout_toRightOf="@id/edSegundoApellido"
          android:layout_below="@+id/tvPrimerApellido"
          android:layout_alignLeft="@id/tvNombres"
-         android:inputType="textCapWords"
+          android:inputType="textCapCharacters"
          />
 <TextView
     android:id="@+id/tvTipoDocumento"
@@ -241,7 +241,7 @@
     
     android:layout_below="@+id/tvDireccion"
     android:background="@drawable/editstyle"
-    android:inputType="textCapWords"
+     android:inputType="textCapCharacters"
     android:hint="@string/hint_Direccion"
      
     android:layout_alignRight="@+id/edNombres"
@@ -283,7 +283,7 @@
     
     android:layout_below="@+id/tvCorreo"
     android:background="@drawable/editstyle"
-   android:inputType="textCapCharacters"
+   
     android:layout_alignLeft="@+id/spinner_tipodocumento"
     android:layout_alignRight="@+id/spinner_tipodocumento"
     android:hint="@string/hint_Correo"
