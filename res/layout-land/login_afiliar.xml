@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/verde"
+    
+     >
+  <RelativeLayout 
+      android:layout_centerInParent="true"
+      android:id="@+id/relativo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+ <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/Ingrese_Cedula"
+        android:textSize="@dimen/letra_login" 
+        android:textStyle="bold"
+        android:textColor="@color/blanco"/>
+
+    <EditText
+        android:id="@+id/edNombre"
+        android:layout_width="@dimen/ancho_editlogin"
+        android:layout_height="@dimen/letra_login"
+        android:layout_marginLeft="@dimen/margen_edit_login"
+        android:layout_toRightOf="@id/tvNombre"
+        android:background="@drawable/editstyle"
+        android:hint="@string/numero_id"
+        android:inputType="number"
+        android:textSize="@dimen/tamano_hintedit"
+        />
+
+</RelativeLayout>
+
+  <Button
+      android:layout_width="@dimen/ancho_btn_ingregsarreferido"
+      android:layout_height="@dimen/alto_btnguardar"
+      android:layout_alignRight="@+id/relativo"
+      android:layout_below="@+id/relativo"
+      android:layout_marginRight="146dp"
+      android:background="@drawable/round_button"
+      android:contentDescription="@string/content_descripcion"
+      android:text="@string/Validar"
+      android:textColor="@color/blanco"
+      android:textSize="@dimen/tamanoletra_btnguardar"
+      android:layout_marginTop="@dimen/margen_edit_login" />
+
+</RelativeLayout>

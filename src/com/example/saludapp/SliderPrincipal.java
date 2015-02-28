@@ -6,9 +6,11 @@ import java.util.ArrayList;
 
 import com.example.saludapp.adapter.NavDrawerListAdapter;
 import com.example.saludapp.model.NavDrawerItem;
-import com.example.saludapp.pantallas.CommunityFragment;
+
 import com.example.saludapp.pantallas.FindPeopleFragment;
-import com.example.saludapp.pantallas.HomeFragment;
+
+import com.example.saludapp.pantallas.Afiliar;
+import com.example.saludapp.pantallas.IngresarReferido;
 import com.example.saludapp.pantallas.PagesFragment;
 import com.example.saludapp.pantallas.PhotosFragment;
 import com.example.saludapp.pantallas.WhatsHotFragment;
@@ -152,6 +154,8 @@ public class SliderPrincipal extends Activity {
 		switch (item.getItemId()) {
 		case R.id.action_settings:
 			return true;
+		case R.id.usuario:
+			return true;
 		default:
 			return super.onOptionsItemSelected(item);
 		}
@@ -165,6 +169,7 @@ public class SliderPrincipal extends Activity {
 		// if nav drawer is opened, hide the action items
 		boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
 		menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
+		menu.findItem(R.id.usuario).setVisible(!drawerOpen);
 		return super.onPrepareOptionsMenu(menu);
 	}
 
@@ -176,7 +181,7 @@ public class SliderPrincipal extends Activity {
 		Fragment fragment = null;
 		switch (position) {
 		case 0:
-			fragment = new HomeFragment();
+			fragment = new IngresarReferido();
 			break;
 		case 1:
 			fragment = new FindPeopleFragment();
@@ -185,7 +190,7 @@ public class SliderPrincipal extends Activity {
 			fragment = new PhotosFragment();
 			break;
 		case 3:
-			fragment = new CommunityFragment();
+			fragment = new Afiliar();
 			break;
 		case 4:
 			fragment = new PagesFragment();

@@ -61,6 +61,12 @@
     <string name="agendar">Agendar</string>
     <string name="caracterizar">Caracterizar</string>
     <string name="guardar">Guardar</string>
+   
+    
+      
+    
+    
+    
       <!--Spinner Tipo de documento -->
       
       <string-array name="tipo_documento_items">
@@ -78,9 +84,13 @@
        <item>Hombre</item>
        <item>Mujer</item>
  
-          
-          
+        
       </string-array>
+      
+      
+      <!-- Action bar  Icon -->
+      <string name="usericon">Usuario</string>
+      
       
       
     <!-- Nav Drawer Menu Items -->
@@ -107,9 +117,17 @@
     </array>
     
     
+     <!--Afiliar -->
+
+<string name="Informacion_beneficiarioyadicional">Informacion Beneficiario y Adicional</string>
     
 
-    
+ <!--Afiliar  login-->
+ <string name="Ingrese_Cedula">Ingrese Cedula</string>
+ <string name="btn_ingresar_afiliarlogin">Ingresar</string>
+ <string name="hint_numerocedula"># Cedula</string>
+ <string name="Validar">Validar</string>
+
     <!-- Content Description -->
     <string name="desc_list_item_icon">Item Icon</string>
 </resources>

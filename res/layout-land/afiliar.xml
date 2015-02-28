@@ -1,8 +1,352 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<ScrollView
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
     
+    <RelativeLayout 
 
-</LinearLayout>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+   >
+
+    <TextView 
+        android:id="@+id/tvingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Informacion_beneficiarioyadicional"
+        android:textSize="@dimen/letra_ingresarreferido"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/verde"
+       
+        
+        />
+    
+ 
+    
+      <TextView 
+          android:text="@string/primer_apellido"
+          android:id="@+id/tvPrimerApellido"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:textSize="@dimen/letra_formulario"
+          android:layout_below="@+id/tvingresar"
+          android:layout_marginRight="@dimen/divisornombres"
+          />
+     
+     
+        <TextView 
+          android:text="@string/segundo_apellido"
+          android:id="@+id/tvSegundoApellido"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:textSize="@dimen/letra_formulario"
+          android:layout_toRightOf="@id/tvPrimerApellido"
+         android:layout_below="@+id/tvingresar"
+          android:layout_marginRight="@dimen/divisornombres"
+          />
+          <TextView 
+          android:text="@string/nombres"
+          android:id="@+id/tvNombres"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:textSize="@dimen/letra_formulario"
+           android:layout_toRightOf="@id/tvSegundoApellido"
+          android:layout_below="@+id/tvingresar"
+          android:layout_marginRight="@dimen/divisornombres"
+          />
+ 
+         <EditText 
+         android:id="@+id/edPrimerApellido"
+         android:layout_width="@dimen/anchoedits"
+         android:layout_height="@dimen/altoedits"
+         android:background="@drawable/editstyle"
+         android:hint="@string/hint_1erapellido"
+         android:textSize="@dimen/letra_formulario"
+         android:layout_below="@+id/tvPrimerApellido"
+         android:layout_marginRight="@dimen/divisornombres"
+       android:inputType="textCapCharacters"
+         
+         /> 
+       <EditText 
+         android:id="@+id/edSegundoApellido"
+         android:layout_width="@dimen/anchoedits"
+         android:layout_height="@dimen/altoedits"
+         android:background="@drawable/editstyle"
+         android:hint="@string/hint_2doapellido"
+         android:textSize="@dimen/letra_formulario"
+         android:layout_marginRight="@dimen/divisornombres"
+         android:layout_toRightOf="@id/edPrimerApellido"
+         android:layout_alignLeft="@id/tvSegundoApellido"
+         android:layout_below="@+id/tvPrimerApellido"
+         android:inputType="textCapCharacters"
+         />   
+         
+   
+      
+       
+         <EditText 
+         android:id="@+id/edNombres"
+         android:layout_width="@dimen/anchonombre"
+         android:layout_height="@dimen/altoedits"
+         android:background="@drawable/editstyle"
+         android:hint="@string/hint_Nombres"
+         android:textSize="@dimen/letra_formulario"
+         android:layout_marginRight="@dimen/divisornombres"
+         android:layout_toRightOf="@id/edSegundoApellido"
+         android:layout_below="@+id/tvPrimerApellido"
+         android:layout_alignLeft="@id/tvNombres"
+          android:inputType="textCapCharacters"
+         />
+<TextView
+    android:id="@+id/tvTipoDocumento"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/edPrimerApellido"
+    android:layout_below="@+id/edPrimerApellido"
+    android:text="@string/tipo_documento"
+    android:textSize="@dimen/letra_formulario" />
+<TextView 
+    android:id="@+id/tvNumeroid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/numero_id"
+    android:textSize="@dimen/letra_formulario"
+    android:layout_toRightOf="@id/tvTipoDocumento"
+    android:layout_below="@id/edNombres"
+    android:layout_alignLeft="@id/edSegundoApellido"
+     />
+<TextView 
+    android:id="@+id/tvFecha"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/fecha_nacimiento"
+    android:layout_below="@id/edNombres"
+    android:layout_toRightOf="@id/tvNumeroid"
+    android:textSize="@dimen/letra_formulario"
+    android:layout_alignLeft="@id/tvNombres"
+    />
+
+<EditText 
+    android:id="@+id/edNumeroid"
+    android:layout_height="@dimen/altoedits"
+    android:layout_width="@dimen/anchoedits"
+    android:hint="@string/hint_Identificacion"
+    android:background="@drawable/editstyle"
+    android:layout_alignLeft="@id/edSegundoApellido"
+    android:layout_below="@id/tvNumeroid"
+    android:inputType="number"
+    android:layout_alignRight="@id/edSegundoApellido"
+    android:textSize="@dimen/letra_formulario"
+    
+    />
+<EditText 
+    android:id="@+id/edDia"
+    
+    android:layout_width="@dimen/anchofecha"
+    android:layout_height="@dimen/altoedits"
+    android:layout_alignLeft="@id/edNombres"
+    android:hint="@string/hint_dia"
+    android:layout_below="@id/edNombres"
+    android:background="@drawable/editstyle"
+    android:layout_alignTop="@+id/edNumeroid"
+    android:inputType="date"
+    android:gravity="center"
+    android:textSize="@dimen/letra_formulario"
+    />
+<EditText 
+    android:id="@+id/edMes"
+    
+    android:layout_width="@dimen/anchofecha"
+    android:layout_height="@dimen/altoedits"
+    
+    android:hint="@string/hint_mes"
+    android:layout_below="@id/edNombres"
+    android:layout_toRightOf="@+id/edDia"
+    android:background="@drawable/editstyle"
+     android:layout_alignTop="@+id/edNumeroid"
+    android:layout_marginLeft="@dimen/divisorfecha"
+    android:inputType="date"
+    android:gravity="center"
+    android:textSize="@dimen/letra_formulario"
+    />
+
+<EditText 
+    android:id="@+id/edAno"
+    
+    android:layout_width="@dimen/anchofecha"
+    android:layout_height="@dimen/altoedits"
+    
+    android:hint="@string/hint_ano"
+    android:layout_below="@id/edNombres"
+    android:background="@drawable/editstyle"
+     android:layout_alignTop="@+id/edNumeroid"
+    android:layout_toRightOf="@+id/edMes"
+    android:layout_marginLeft="@dimen/divisorfecha"
+    android:inputType="date"
+    android:gravity="center"
+    android:textSize="@dimen/letra_formulario"
+    />
+
+
+<Spinner
+    android:id="@+id/spinner_tipodocumento"
+    android:layout_width="@dimen/anchoedits"
+    android:layout_height="@dimen/altoedits"
+    android:layout_alignLeft="@+id/tvTipoDocumento"
+    android:layout_below="@id/tvTipoDocumento"
+    android:background="@drawable/editstyle"
+    android:entries="@array/tipo_documento_items" 
+    android:layout_alignRight="@+id/edPrimerApellido"
+    android:textSize="@dimen/letra_formulario"/>
+
+<TextView
+    android:id="@+id/tvcelular"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/edNumeroid"
+    
+    android:layout_below="@+id/edNumeroid"
+    android:text="@string/celular"
+    android:textSize="@dimen/letra_formulario" />
+
+<EditText
+    android:id="@+id/edcelular"
+    android:layout_width="@dimen/anchoedits"
+    android:layout_height="@dimen/altoedits"
+    android:layout_alignLeft="@+id/edNumeroid"
+    android:layout_alignRight="@+id/edNumeroid"
+    android:layout_below="@+id/tvcelular"
+    android:background="@drawable/editstyle"
+    android:inputType="phone"
+    android:hint="@string/hint_Celular"
+    
+    android:textSize="@dimen/letra_formulario"/>
+
+    <TextView
+    android:id="@+id/tvDireccion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/tvNombres"
+    android:layout_below="@+id/edNumeroid"
+    android:text="@string/direccion"
+    android:textSize="@dimen/letra_formulario" />
+
+<EditText
+    android:id="@+id/edDireccion"
+    android:layout_width="@dimen/anchonombre"
+    android:layout_height="@dimen/altoedits"
+    android:layout_alignLeft="@+id/edNombres"
+    
+    android:layout_below="@+id/tvDireccion"
+    android:background="@drawable/editstyle"
+     android:inputType="textCapCharacters"
+    android:hint="@string/hint_Direccion"
+     
+    android:layout_alignRight="@+id/edNombres"
+    android:textSize="@dimen/letra_formulario"
+    />
+  
+
+<Button 
+      
+       android:id="@+id/btn_guardarref"
+       android:layout_width="@dimen/ancho_btn_ingregsarreferido"
+       android:layout_height="@dimen/alto_btnguardar"
+       android:text="@string/guardar"
+       android:textColor="@color/blanco"
+       android:layout_alignLeft="@+id/edDireccion"
+       android:textSize="@dimen/tamanoletra_btnguardar"
+       android:background="@drawable/round_button"
+       android:layout_below="@+id/edDireccion"
+       android:layout_marginTop="@dimen/margin_btnref"
+      />
+
+
+
+<TextView
+    android:id="@+id/tvCorreo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/spinner_tipodocumento"
+    
+    android:layout_alignLeft="@+id/spinner_tipodocumento"
+    android:text="@string/correo"
+    android:textSize="@dimen/letra_formulario" />
+
+<EditText
+    android:id="@+id/edCorreo"
+    android:layout_width="@dimen/anchoedits"
+    android:layout_height="@dimen/altoedits"
+    
+    
+    android:layout_below="@+id/tvCorreo"
+    android:background="@drawable/editstyle"
+   
+    android:layout_alignLeft="@+id/spinner_tipodocumento"
+    android:layout_alignRight="@+id/spinner_tipodocumento"
+    android:hint="@string/hint_Correo"
+   
+    android:textSize="@dimen/letra_formulario" />
+
+<TextView
+    android:id="@+id/tvgenero"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/edCorreo"
+    android:layout_alignLeft="@+id/edCorreo"
+    android:layout_toLeftOf="@+id/btn_guardarref"
+    android:text="@string/genero"
+    android:textSize="@dimen/letra_formulario"
+     
+     />
+<Spinner
+    android:id="@+id/spinner_genero"
+    android:layout_width="@dimen/anchoedits"
+    android:layout_height="@dimen/altoedits"
+    android:layout_alignLeft="@+id/spinner_tipodocumento"
+    android:layout_alignRight="@+id/spinner_tipodocumento"
+     android:layout_toLeftOf="@+id/btn_guardarref"
+    android:layout_below="@+id/tvgenero"
+    android:background="@drawable/editstyle"
+    android:entries="@array/genero_items" 
+   android:textSize="@dimen/letra_formulario"
+    />
+
+<TextView
+    android:id="@+id/tvFijo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignTop="@+id/tvgenero"
+    android:layout_alignLeft="@+id/edcelular"
+    android:layout_toRightOf="@+id/tvCorreo"
+    android:text="@string/telefono_fijo"
+    android:textSize="@dimen/letra_formulario" />
+
+<EditText
+    android:id="@+id/edFijo"
+    android:layout_width="@dimen/anchoedits"
+    android:layout_height="@dimen/altoedits"
+    
+    android:layout_alignLeft="@+id/edcelular"
+    android:layout_toRightOf="@+id/tvCorreo"
+    android:layout_below="@+id/tvFijo"
+    android:background="@drawable/editstyle"
+    android:inputType="phone"
+    android:hint="@string/hint_Telefonofijo"
+    
+    android:textSize="@dimen/letra_formulario"
+    
+     />
+
+   </RelativeLayout>
+    
+    
+</ScrollView>

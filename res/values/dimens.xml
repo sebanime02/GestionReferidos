@@ -34,6 +34,16 @@
    <dimen name="margin_btnref">40dp</dimen>
    <dimen name="ancho_telefono">60dp</dimen>
    <dimen name="ancho_btn_ingregsarreferido">80dp</dimen>
+   
+   
+   
    <dimen name="tamanoletra_btnguardar">16dp</dimen>
    <dimen name="alto_btnguardar">30dp</dimen>
+   
+   
+   <dimen name="tamano_hintedit">20dp</dimen>
+   
+   
+
+   
 </resources>

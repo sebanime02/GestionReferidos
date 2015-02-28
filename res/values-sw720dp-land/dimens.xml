@@ -9,7 +9,7 @@
      <!-- Login -->
     <dimen name="ancho_imagen_coomeva">160dp</dimen>
    <dimen name="largo_imaegn_coomeva">160dp</dimen>
-    <dimen name="letra_login">30dp</dimen>
+    <dimen name="letra_login">50dp</dimen>
     <dimen name="margen_edit_login">75dp</dimen>
    <dimen name="ancho_editlogin">225dp</dimen>
     
@@ -26,5 +26,8 @@
   <dimen name="divisornombres">140dp</dimen>
   <dimen name="tamanoletra_btnguardar">48dp</dimen>
   <dimen name="alto_btnguardar">90dp</dimen>
-
+  
+  
+<!--login Afiliar   -->
+  <dimen name="tamano_hintedit">30dp</dimen>
 </resources>

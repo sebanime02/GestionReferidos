@@ -1060,6 +1060,10 @@ Formulario Ingresar Referido
         public static final int margen_edit_login=0x7f07001d;
         public static final int margen_ingresarreferido=0x7f070024;
         public static final int margin_btnref=0x7f07002e;
+        /** login Afiliar   
+login Afiliar   
+         */
+        public static final int tamano_hintedit=0x7f070033;
         public static final int tamanoletra_btnguardar=0x7f070031;
     }
     public static final class drawable {
@@ -1163,31 +1167,32 @@ Formulario Ingresar Referido
         public static final int editstyle=0x7f020061;
         public static final int esmeralda=0x7f020062;
         public static final int estrella=0x7f020063;
-        public static final int ic_communities=0x7f020064;
-        public static final int ic_drawer=0x7f020065;
-        public static final int ic_home=0x7f020066;
-        public static final int ic_launcher=0x7f020067;
-        public static final int ic_pages=0x7f020068;
-        public static final int ic_people=0x7f020069;
-        public static final int ic_photos=0x7f02006a;
-        public static final int ic_whats_hot=0x7f02006b;
-        public static final int ingresar=0x7f02006c;
-        public static final int list_item_bg_normal=0x7f02006d;
-        public static final int list_item_bg_pressed=0x7f02006e;
-        public static final int list_selector=0x7f02006f;
-        public static final int logo=0x7f020070;
-        public static final int planes=0x7f020071;
-        public static final int quines=0x7f020072;
-        public static final int round_button=0x7f020073;
-        public static final int writing=0x7f020074;
+        public static final int ic_action_person=0x7f020064;
+        public static final int ic_communities=0x7f020065;
+        public static final int ic_drawer=0x7f020066;
+        public static final int ic_home=0x7f020067;
+        public static final int ic_launcher=0x7f020068;
+        public static final int ic_pages=0x7f020069;
+        public static final int ic_people=0x7f02006a;
+        public static final int ic_photos=0x7f02006b;
+        public static final int ic_whats_hot=0x7f02006c;
+        public static final int ingresar=0x7f02006d;
+        public static final int list_item_bg_normal=0x7f02006e;
+        public static final int list_item_bg_pressed=0x7f02006f;
+        public static final int list_selector=0x7f020070;
+        public static final int logo=0x7f020071;
+        public static final int planes=0x7f020072;
+        public static final int quines=0x7f020073;
+        public static final int round_button=0x7f020074;
+        public static final int writing=0x7f020075;
     }
     public static final class id {
-        public static final int AgendarNombre=0x7f090049;
-        public static final int Atras=0x7f09005d;
-        public static final int GbodyFragment=0x7f090057;
-        public static final int GmenuFragment=0x7f090058;
-        public static final int PbodyFragment=0x7f09007b;
-        public static final int PmenuFragment=0x7f09007c;
+        public static final int AgendarNombre=0x7f090063;
+        public static final int Atras=0x7f090077;
+        public static final int GbodyFragment=0x7f090071;
+        public static final int GmenuFragment=0x7f090072;
+        public static final int PbodyFragment=0x7f09007c;
+        public static final int PmenuFragment=0x7f09007d;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1199,49 +1204,49 @@ Formulario Ingresar Referido
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f09007d;
+        public static final int action_settings=0x7f09007e;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
         public static final int bodyFragment=0x7f09003c;
-        public static final int btn1=0x7f09004c;
-        public static final int btn2=0x7f09004d;
-        public static final int btn3=0x7f09004e;
-        public static final int btn4=0x7f09004f;
-        public static final int btnAgenda=0x7f09005b;
-        public static final int btnCaracterizacion=0x7f09005c;
-        public static final int btnIngReferido=0x7f09005a;
+        public static final int btn1=0x7f090066;
+        public static final int btn2=0x7f090067;
+        public static final int btn3=0x7f090068;
+        public static final int btn4=0x7f090069;
+        public static final int btnAgenda=0x7f090075;
+        public static final int btnCaracterizacion=0x7f090076;
+        public static final int btnIngReferido=0x7f090074;
         public static final int btn_Ingresar=0x7f090048;
-        public static final int btn_Zafiro=0x7f09007a;
-        public static final int btn_diamante=0x7f090079;
-        public static final int btn_guardarref=0x7f090071;
+        public static final int btn_Zafiro=0x7f09007b;
+        public static final int btn_diamante=0x7f09007a;
+        public static final int btn_guardarref=0x7f09005c;
         public static final int checkbox=0x7f09002d;
-        public static final int cobertura=0x7f090053;
+        public static final int cobertura=0x7f09006d;
         public static final int collapseActionView=0x7f090010;
-        public static final int counter=0x7f09004a;
+        public static final int counter=0x7f090064;
         public static final int default_activity_button=0x7f090028;
-        public static final int detailsText=0x7f09004b;
+        public static final int detailsText=0x7f090065;
         public static final int dialog=0x7f090014;
-        public static final int diamante=0x7f090051;
+        public static final int diamante=0x7f09006b;
         public static final int disableHome=0x7f090009;
         public static final int drawer_layout=0x7f09003e;
         public static final int dropdown=0x7f090015;
-        public static final int edAno=0x7f09006b;
+        public static final int edAno=0x7f090056;
         public static final int edContrasena=0x7f090047;
-        public static final int edCorreo=0x7f090073;
-        public static final int edDia=0x7f090069;
-        public static final int edDireccion=0x7f090070;
-        public static final int edFijo=0x7f090077;
-        public static final int edMes=0x7f09006a;
+        public static final int edCorreo=0x7f09005e;
+        public static final int edDia=0x7f090054;
+        public static final int edDireccion=0x7f09005b;
+        public static final int edFijo=0x7f090062;
+        public static final int edMes=0x7f090055;
         public static final int edNombre=0x7f090045;
-        public static final int edNombres=0x7f090064;
-        public static final int edNumeroid=0x7f090068;
-        public static final int edPrimerApellido=0x7f090062;
-        public static final int edSegundoApellido=0x7f090063;
-        public static final int edcelular=0x7f09006e;
+        public static final int edNombres=0x7f09004f;
+        public static final int edNumeroid=0x7f090053;
+        public static final int edPrimerApellido=0x7f09004d;
+        public static final int edSegundoApellido=0x7f09004e;
+        public static final int edcelular=0x7f090059;
         public static final int edit_query=0x7f090030;
         public static final int end=0x7f090017;
-        public static final int esmeralda=0x7f090052;
+        public static final int esmeralda=0x7f09006c;
         public static final int expand_activities_button=0x7f090026;
         public static final int expanded_menu=0x7f09002c;
         public static final int frame_container=0x7f09003f;
@@ -1257,7 +1262,7 @@ Formulario Ingresar Referido
         public static final int list_item=0x7f090029;
         public static final int list_slidermenu=0x7f090040;
         public static final int menuFragment=0x7f09003d;
-        public static final int menuGestion=0x7f090059;
+        public static final int menuGestion=0x7f090073;
         public static final int middle=0x7f090018;
         public static final int never=0x7f090012;
         public static final int none=0x7f090019;
@@ -1266,6 +1271,7 @@ Formulario Ingresar Referido
         public static final int progress_circular=0x7f090004;
         public static final int progress_horizontal=0x7f090005;
         public static final int radio=0x7f09002f;
+        public static final int relativo=0x7f090079;
         public static final int search_badge=0x7f090032;
         public static final int search_bar=0x7f090031;
         public static final int search_button=0x7f090033;
@@ -1280,33 +1286,34 @@ Formulario Ingresar Referido
         public static final int showCustom=0x7f09000b;
         public static final int showHome=0x7f09000c;
         public static final int showTitle=0x7f09000d;
-        public static final int spinner_genero=0x7f090075;
-        public static final int spinner_tipodocumento=0x7f09006c;
+        public static final int spinner_genero=0x7f090060;
+        public static final int spinner_tipodocumento=0x7f090057;
         public static final int split_action_bar=0x7f09001e;
         public static final int submit_area=0x7f090039;
         public static final int tabMode=0x7f090008;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
         public static final int tvContrasena=0x7f090046;
-        public static final int tvCorreo=0x7f090072;
-        public static final int tvDireccion=0x7f09006f;
-        public static final int tvFecha=0x7f090067;
-        public static final int tvFijo=0x7f090076;
+        public static final int tvCorreo=0x7f09005d;
+        public static final int tvDireccion=0x7f09005a;
+        public static final int tvFecha=0x7f090052;
+        public static final int tvFijo=0x7f090061;
         public static final int tvNombre=0x7f090044;
-        public static final int tvNombres=0x7f090061;
-        public static final int tvNumeroid=0x7f090066;
-        public static final int tvPrimerApellido=0x7f09005f;
-        public static final int tvSegundoApellido=0x7f090060;
-        public static final int tvTipoDocumento=0x7f090065;
-        public static final int tvcelular=0x7f09006d;
-        public static final int tvgenero=0x7f090074;
-        public static final int tvingresar=0x7f09005e;
-        public static final int txtLabel=0x7f090050;
-        public static final int txt_cobertura=0x7f090054;
-        public static final int txt_contenido=0x7f090055;
-        public static final int txt_contenido2=0x7f090056;
+        public static final int tvNombres=0x7f09004c;
+        public static final int tvNumeroid=0x7f090051;
+        public static final int tvPrimerApellido=0x7f09004a;
+        public static final int tvSegundoApellido=0x7f09004b;
+        public static final int tvTipoDocumento=0x7f090050;
+        public static final int tvcelular=0x7f090058;
+        public static final int tvgenero=0x7f09005f;
+        public static final int tvingresar=0x7f090049;
+        public static final int txtLabel=0x7f09006a;
+        public static final int txt_cobertura=0x7f09006e;
+        public static final int txt_contenido=0x7f09006f;
+        public static final int txt_contenido2=0x7f090070;
         public static final int up=0x7f090021;
         public static final int useLogo=0x7f09000e;
+        public static final int usuario=0x7f09007f;
         public static final int withText=0x7f090013;
     }
     public static final class integer {
@@ -1362,29 +1369,31 @@ Formulario Ingresar Referido
         public static final int ac_body=0x7f030018;
         public static final int ac_main=0x7f030019;
         public static final int activity_main=0x7f03001a;
-        public static final int agenda=0x7f03001b;
-        public static final int drawer_list_item=0x7f03001c;
-        public static final int fr_body=0x7f03001d;
-        public static final int fr_gestion=0x7f03001e;
-        public static final int fr_menu=0x7f03001f;
-        public static final int fragment_community=0x7f030020;
-        public static final int fragment_find_people=0x7f030021;
-        public static final int fragment_home=0x7f030022;
-        public static final int fragment_pages=0x7f030023;
-        public static final int fragment_photos=0x7f030024;
-        public static final int fragment_planes=0x7f030025;
-        public static final int fragment_whats_hot=0x7f030026;
-        public static final int ge_body=0x7f030027;
-        public static final int ge_main=0x7f030028;
-        public static final int gfr_body=0x7f030029;
-        public static final int gfr_menu=0x7f03002a;
-        public static final int ingresar_referido=0x7f03002b;
-        public static final int login=0x7f03002c;
-        public static final int pfr_body=0x7f03002d;
-        public static final int pfr_menu=0x7f03002e;
-        public static final int pla_body=0x7f03002f;
-        public static final int pla_main=0x7f030030;
-        public static final int support_simple_spinner_dropdown_item=0x7f030031;
+        public static final int afiliar=0x7f03001b;
+        public static final int agenda=0x7f03001c;
+        public static final int drawer_list_item=0x7f03001d;
+        public static final int fr_body=0x7f03001e;
+        public static final int fr_gestion=0x7f03001f;
+        public static final int fr_menu=0x7f030020;
+        public static final int fragment_community=0x7f030021;
+        public static final int fragment_find_people=0x7f030022;
+        public static final int fragment_home=0x7f030023;
+        public static final int fragment_pages=0x7f030024;
+        public static final int fragment_photos=0x7f030025;
+        public static final int fragment_planes=0x7f030026;
+        public static final int fragment_whats_hot=0x7f030027;
+        public static final int ge_body=0x7f030028;
+        public static final int ge_main=0x7f030029;
+        public static final int gfr_body=0x7f03002a;
+        public static final int gfr_menu=0x7f03002b;
+        public static final int ingresar_referido=0x7f03002c;
+        public static final int login=0x7f03002d;
+        public static final int login_afiliar=0x7f03002e;
+        public static final int pfr_body=0x7f03002f;
+        public static final int pfr_menu=0x7f030030;
+        public static final int pla_body=0x7f030031;
+        public static final int pla_main=0x7f030032;
+        public static final int support_simple_spinner_dropdown_item=0x7f030033;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;
@@ -1400,12 +1409,19 @@ Formulario Ingresar Referido
         public static final int Esmeralda=0x7f0a0021;
         public static final int Gestion_Referidos=0x7f0a0017;
         public static final int Informacion=0x7f0a0016;
+        /** Afiliar 
+         */
+        public static final int Informacion_beneficiarioyadicional=0x7f0a0045;
         public static final int Ingresar_Referido=0x7f0a001b;
+        /** Afiliar  login
+         */
+        public static final int Ingrese_Cedula=0x7f0a0046;
         public static final int Nombre=0x7f0a0011;
         public static final int Oro=0x7f0a0020;
         public static final int Planes=0x7f0a0019;
         public static final int Quienes_Somos=0x7f0a001a;
         public static final int Transaccional=0x7f0a0015;
+        public static final int Validar=0x7f0a0049;
         public static final int Zafiro=0x7f0a001f;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
@@ -1451,6 +1467,7 @@ Formulario Ingresar Referido
         public static final int agendar=0x7f0a0041;
         public static final int app_name=0x7f0a000d;
         public static final int btn_Ingresar=0x7f0a0013;
+        public static final int btn_ingresar_afiliarlogin=0x7f0a0047;
         public static final int caracterizar=0x7f0a0042;
         public static final int celular=0x7f0a003c;
         public static final int cobertura=0x7f0a0025;
@@ -1458,7 +1475,7 @@ Formulario Ingresar Referido
         public static final int correo=0x7f0a0040;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f0a0044;
+        public static final int desc_list_item_icon=0x7f0a004a;
         public static final int descripcion_diamante=0x7f0a0023;
         public static final int descripcion_esmeralda=0x7f0a0024;
         public static final int direccion=0x7f0a003d;
@@ -1482,6 +1499,7 @@ Formulario Ingresar Referido
          */
         public static final int hint_dia=0x7f0a002f;
         public static final int hint_mes=0x7f0a0030;
+        public static final int hint_numerocedula=0x7f0a0048;
         public static final int hint_vacio=0x7f0a0032;
         public static final int nombres=0x7f0a002b;
         public static final int numero_id=0x7f0a002c;
@@ -1490,6 +1508,9 @@ Formulario Ingresar Referido
         public static final int segundo_apellido=0x7f0a002a;
         public static final int telefono_fijo=0x7f0a003f;
         public static final int tipo_documento=0x7f0a003b;
+        /**  Action bar  Icon 
+         */
+        public static final int usericon=0x7f0a0044;
     }
     public static final class style {
         /** 
