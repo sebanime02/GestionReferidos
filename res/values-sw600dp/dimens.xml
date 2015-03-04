@@ -12,7 +12,8 @@
     <dimen name="letra_login">40dp</dimen>
     <dimen name="margen_edit_login">75dp</dimen>
    <dimen name="ancho_editlogin">225dp</dimen>
-   
+    <dimen name="anchobtningresar">150dp</dimen>
+   <dimen name="altobntingresar">60dp</dimen>
     
       <!-- Alto y Ancho Panel Login centra -->
     <dimen name="ancho_logincentral">450dp</dimen>

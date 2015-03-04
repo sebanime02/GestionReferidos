@@ -10,12 +10,22 @@
     android:background="@color/verde"
     
      >
+       <ImageView  android:id="@+id/imagen_validar"
+          android:contentDescription="@string/content_descripcion"
+          android:layout_width="@dimen/ancho_imagen_coomeva"
+          android:layout_height="@dimen/largo_imaegn_coomeva"
+          android:src="@drawable/validar"
+          android:layout_marginBottom="@dimen/margen_edit_login"
+          android:layout_centerHorizontal="true"/>
+       
   <RelativeLayout 
+      android:layout_below="@id/imagen_validar"
       android:layout_centerInParent="true"
       android:id="@+id/relativo"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       >
+    
  <TextView
         android:id="@+id/tvNombre"
         android:layout_width="wrap_content"

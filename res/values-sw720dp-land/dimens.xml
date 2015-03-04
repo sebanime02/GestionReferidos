@@ -10,9 +10,10 @@
     <dimen name="ancho_imagen_coomeva">160dp</dimen>
    <dimen name="largo_imaegn_coomeva">160dp</dimen>
     <dimen name="letra_login">50dp</dimen>
-    <dimen name="margen_edit_login">75dp</dimen>
+    <dimen name="margen_edit_login">100dp</dimen>
    <dimen name="ancho_editlogin">225dp</dimen>
-    
+     <dimen name="anchobtningresar">200dp</dimen>
+   <dimen name="altobntingresar">80dp</dimen>
     
     <!--Formulario Ingresar Referido   -->
    

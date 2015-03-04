@@ -40,7 +40,9 @@
    <dimen name="tamanoletra_btnguardar">16dp</dimen>
    <dimen name="alto_btnguardar">30dp</dimen>
    
-   
+   <dimen name="anchobtningresar">100dp</dimen>
+   <dimen name="altobntingresar">40dp</dimen>
+ 
    <dimen name="tamano_hintedit">20dp</dimen>
    
    
